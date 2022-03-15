@@ -1,5 +1,5 @@
     h1{
-        color:rgb(228, 70, 70);
+        color:rgb(68, 4, 4);
         font-family:'Trebuchet MS';
         text-align: left;
     
@@ -9,4 +9,7 @@
         font-family: Cambria;
         text-align: justify;
         font: size 16px;
+    }
+    body{
+        background-color: rgb(243, 217, 217);
     }
