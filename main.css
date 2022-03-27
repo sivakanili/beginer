@@ -2,14 +2,19 @@
         color:rgb(68, 4, 4);
         font-family:'Trebuchet MS';
         text-align: left;
-    
+        cursor: url(https://wilje.online/cursor/info.svg),auto;     
+    }
+    .red-text{
+        color:rgb(70, 2, 2);
+        font-style: oblique;
+
     }
     p{
         color:rgb(4, 4, 36);
         font-family: Cambria;
         text-align: justify;
-        font: size 16px;
+        font-size:16px;
     }
     body{
-        background-color: rgb(243, 217, 217);
+        background-color: rgb(84, 125, 175);
     }
