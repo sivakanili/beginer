@@ -22,10 +22,12 @@
         opacity:0.5;
     }
     table, th, td {
-        border:1px solid;
+        border-bottom:1px solid #ddd;;
     }
     table {
         width: 75%;
+        margin-left:auto;
+        margin-right:auto;
     }
     td {
         text-align: center;
@@ -35,5 +37,10 @@
         background-color: rgb(7, 7, 121);
         color: white;
         padding: 15px;
+        
     }
+    tr:hover {
+        background-color: coral;
+    }
+    
 
