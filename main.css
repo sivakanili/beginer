@@ -1,46 +1,56 @@
-    h1{
-        color:rgb(68, 4, 4);
-        font-family:'Trebuchet MS';
-        text-align: left;
-        cursor: url(https://wilje.online/cursor/info.svg),auto;     
-    }
-    .red-text{
-        color:rgb(70, 2, 2);
-        font-style: oblique;
+h1 {
+    color: rgb(68, 4, 4);
+    font-family: 'Trebuchet MS';
+    text-align: left;
+    cursor: url(https://wilje.online/cursor/info.svg), auto;
+}
 
-    }
-    p{
-        color:rgb(4, 4, 36);
-        font-family: Cambria;
-        text-align: justify;
-        font-size:16px;
-    }
-    body{
-        background-color: rgb(244, 246, 248);
-    }
-    img{
-        opacity:0.5;
-    }
-    table, th, td {
-        border-bottom:1px solid #ddd;;
-    }
-    table {
-        width: 75%;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    td {
-        text-align: center;
-        padding: 15px;
-    }
-    th {
-        background-color: rgb(7, 7, 121);
-        color: white;
-        padding: 15px;
-        
-    }
-    tr:hover {
-        background-color: coral;
-    }
-    
+.red-text {
+    color: rgb(70, 2, 2);
+    font-style: oblique;
 
+}
+
+p {
+    color: rgb(4, 4, 36);
+    font-family: Cambria;
+    text-align: justify;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(244, 246, 248);
+}
+
+img {
+    opacity: 0.5;
+}
+
+table,
+th,
+td {
+    border-bottom: 1px solid #ddd;
+    ;
+}
+
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+th {
+    background-color: rgb(7, 7, 121);
+    color: white;
+    padding: 15px;
+
+}
+
+tr:hover {
+    background-color: coral;
+}
