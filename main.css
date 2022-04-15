@@ -1,7 +1,8 @@
 h1 {
     color: rgb(68, 4, 4);
     font-family: 'Trebuchet MS';
-    text-align: left;
+    text-align: center;
+    
     cursor: url(https://wilje.online/cursor/info.svg), auto;
 }
 
@@ -9,6 +10,16 @@ h1 {
     color: rgb(70, 2, 2);
     font-style: oblique;
 
+}
+h1::after {
+content: "";
+display: flex;
+
+width: 120px;
+height: 4px;
+
+background-color: bisque;
+margin: 0.5rem auto 0;
 }
 
 p {
