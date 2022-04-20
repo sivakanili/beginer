@@ -2,24 +2,23 @@ h1 {
     color: rgb(68, 4, 4);
     font-family: 'Trebuchet MS';
     text-align: center;
-    
     cursor: url(https://wilje.online/cursor/info.svg), auto;
 }
 
 .red-text {
     color: rgb(70, 2, 2);
     font-style: oblique;
-
 }
+
 h1::after {
-content: "";
-display: flex;
+    content: "";
+    display: flex;
 
-width: 120px;
-height: 4px;
+    width: 120px;
+    height: 4px;
 
-background-color: bisque;
-margin: 0.5rem auto 0;
+    background-color: rgb(41, 23, 1);
+    margin: 0.5rem auto 0;
 }
 
 p {
@@ -41,7 +40,6 @@ table,
 th,
 td {
     border-bottom: 1px solid #ddd;
-    ;
 }
 
 table {
@@ -59,9 +57,16 @@ th {
     background-color: rgb(7, 7, 121);
     color: white;
     padding: 15px;
-
 }
 
 tr:hover {
     background-color: coral;
+}
+
+footer {
+    text-align: left;
+}
+
+figcaption {
+    text-align: justify;
 }
