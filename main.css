@@ -2,24 +2,23 @@ h1 {
     color: rgb(68, 4, 4);
     font-family: 'Trebuchet MS';
     text-align: center;
-    
     cursor: url(https://wilje.online/cursor/info.svg), auto;
 }
 
 .red-text {
     color: rgb(70, 2, 2);
     font-style: oblique;
-
 }
+
 h1::after {
-content: "";
-display: flex;
+    content: "";
+    display: flex;
 
-width: 120px;
-height: 4px;
+    width: 120px;
+    height: 4px;
 
-background-color: bisque;
-margin: 0.5rem auto 0;
+    background-color: rgb(41, 23, 1);
+    margin: 0.5rem auto 0;
 }
 
 p {
@@ -33,15 +32,29 @@ body {
     background-color: rgb(244, 246, 248);
 }
 
-img {
+.image1 {
     opacity: 0.5;
+    width: 1330px;
+    height: 550px;
+   
+}
+.image2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 50px;
+    
+}
+figure{
+    display: inline-block;
 }
 
 table,
 th,
 td {
     border-bottom: 1px solid #ddd;
-    ;
 }
 
 table {
@@ -59,9 +72,29 @@ th {
     background-color: rgb(7, 7, 121);
     color: white;
     padding: 15px;
-
 }
 
 tr:hover {
     background-color: coral;
 }
+
+footer {
+    text-align: left;
+}
+
+.username {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+}
+.position,
+.handle {
+    text-align: center;
+}
+#teamtext {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+  }
